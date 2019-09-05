@@ -1,4 +1,5 @@
 # headless_raspberry_pi4
+https://github.com/smiletoeveryone/headless_raspberry_pi4/issues/1#issue-489473380
 Hopefully, you are able to install the os for your raspberry pi without a monitor after reading this toturtial.
 You would read 3 topics in the tutorial.
 1. introduction to raspberry pi4 / pi3
