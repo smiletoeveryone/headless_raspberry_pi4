@@ -8,5 +8,8 @@ You would read 3 topics in the tutorial.
 2. raspbian os installation withput a monitor
 3. more information
 
+you are able to input the command "pinout" in the terminal of your raspberry pi4 as well, you would get gpio information as below:
+
+
 Please refer to the file “raspbian os installation tutorial without a monitor.pdf”
 for more details.
