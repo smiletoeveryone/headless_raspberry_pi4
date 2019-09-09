@@ -9,7 +9,7 @@ You would read 3 topics in the tutorial.
 3. more information
 
 you are able to input the command "pinout" in the terminal of your raspberry pi4 as well, you would get gpio information as below:
-
+![](https://github.com/smiletoeveryone/headless_raspberry_pi4/blob/master/rpi4_pinout.jpg)
 
 Please refer to the file “raspbian os installation tutorial without a monitor.pdf”
 for more details.
