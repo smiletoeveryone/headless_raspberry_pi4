@@ -36,7 +36,7 @@ int main(void)
 		delay(500);
 		ledColorSet(0x00,0xff);   //green
 		delay(500);
-		ledColorSet(0xff,0x45);	
+		ledColorSet(0xff,0x45);	  //orange red
 		delay(500);
 		ledColorSet(0xff,0xff);	
 		delay(500);
