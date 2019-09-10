@@ -63,8 +63,3 @@ Do 'sudo apt-get install lightdm' to allow configuration of boot to desktop
 15.run vnc viewer on you ms windows and connect your raspberry_pi by network IP what you got earlier. 
 
 16.it is all done for installing the os.
-
-
-
-Please refer to the file “raspbian os installation tutorial without a monitor.pdf”
-for more details.
