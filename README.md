@@ -15,8 +15,11 @@ installation steps:
 
 1.format your sd card as fat32 under ms windows.
 2.download raspbian os. https://www.raspberrypi.org/downloads/raspbian/
+
 3.download balenaetcher and install it for flashing the os image into sd card. https://www.balena.io/etcher
+
 4.creat a ssh file without extension for turnung on ssh in the boot area of sd card.
+
 5.creat a wpa_supplicant.conf as well in the same area as ssh file for connecting to the wifi.
 country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -26,6 +29,7 @@ network={
     ssid="NETWORK-NAME"
     psk="NETWORK-PASSWORD"
 }
+
 6.finishing above steps, place the sd card in your raspberry pi3/4 and reboot/power on it.
 7.try to get the ip address of your raspberry pi3/pi4 in the wifi router.
 8.:/sudo ssh pi@192.168.XXX.XXX
