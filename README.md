@@ -51,15 +51,25 @@ sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 11.install vnc viewer for your ms windows. 
 
 12.get into the setup menu again for booting into the graphic desktop later, meanwhile try to adjust a correct screen revolution.
+
 sudo raspi-congfig
+
 ******
 Do 'sudo apt-get install lightdm' to allow configuration of boot to desktop
 ******
 
 13.turn on vnc and ssh in the interface option.
 
-14.reboot your raspberry_pi.
+14.return to the main menu of raspi-config.
 
-15.run vnc viewer on you ms windows and connect your raspberry_pi by network IP what you got earlier. 
+15.enter "3. boot options" for choosing "B1 Desktop/CLI".
 
-16.it is all done for installing the os.
+16.then enter "B3 Desktop" or Desktop Autogin" what you like.
+
+17. do not forget to save your setup after all.
+
+18.then reboot your raspberry_pi.
+
+19.run vnc viewer on you ms windows and connect your raspberry_pi by network IP what you got earlier. 
+
+20.it is all done for installing the os.
