@@ -44,8 +44,10 @@ ssh-keygen -R 192.168.xxx.xxx
 
 9.:/sudo raspi-config, get into the menu for turning vnc on thet you would be able to control  your raspberry pi3/p4 remotely.
 
-10. install vnc viewer and server.  
+10. install vnc viewer and server.
+
 sudo apt-get update
+
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 
 11.install vnc viewer for your ms windows. 
