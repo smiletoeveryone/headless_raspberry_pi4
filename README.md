@@ -15,13 +15,16 @@ installation steps:
 
 1.format your sd card as fat32 under ms windows.
 
-2.download raspbian os. https://www.raspberrypi.org/downloads/raspbian/
+2.download raspbian os. 
+
+https://www.raspberrypi.org/downloads/raspbian/
 
 3.download balenaetcher and install it for flashing the os image into sd card. https://www.balena.io/etcher
 
 4.creat a ssh file without extension for turnung on ssh in the boot area of sd card.
 
 5.creat a wpa_supplicant.conf as well in the same area as ssh file for connecting to the wifi.
+
 country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -36,6 +39,7 @@ network={
 7.try to get the ip address of your raspberry pi3/pi4 in the wifi router.
 
 8.:/sudo ssh pi@192.168.XXX.XXX
+
 default password:raspberry
 ******
    if you got an error message as "Hot key verification failed", input the command as below in the terminal.
@@ -46,9 +50,9 @@ ssh-keygen -R 192.168.xxx.xxx
 
 10. install vnc viewer and server.
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 
 11.install vnc viewer for your ms windows. 
 
